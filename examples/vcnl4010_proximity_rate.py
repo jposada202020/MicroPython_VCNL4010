@@ -20,4 +20,4 @@ while True:
             print("Ambient light: {} lux".format(vcn.ambient))
             print()
             time.sleep(0.5)
-        VCN.proximity_rate = proximity_rate
+        vcn.proximity_rate = proximity_rate
