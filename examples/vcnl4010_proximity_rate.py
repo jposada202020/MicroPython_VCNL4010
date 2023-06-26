@@ -13,9 +13,8 @@ vcn.proximity_rate = vcnl4010.SAMPLERATE_31_25
 
 while True:
     for proximity_rate in vcnl4010.proximity_rate_values:
-        print("Current Proximity rate setting: ", VCN.proximity_rate)
+        print("Current Proximity rate setting: ", vcn.proximity_rate)
         for _ in range(10):
-            light = VCN.light
             print("Proximity: {}".format(vcn.proximity))
             print("Ambient light: {} lux".format(vcn.ambient))
             print()
