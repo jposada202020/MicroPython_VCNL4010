@@ -16,8 +16,8 @@ while True:
         print("Current Ambient light average setting: ", vcn.ambient_light_average)
         for _ in range(10):
             light = vcn.light
-            print("Proximity: {}".format(vcn.proximity))
-            print("Ambient light: {} lux".format(vcn.ambient))
+            print(f"Proximity: {vcn.proximity}")
+            print(f"Ambient light: {vcn.ambient} lux")
             print()
             time.sleep(0.5)
         vcn.ambient_light_average = ambient_light_average

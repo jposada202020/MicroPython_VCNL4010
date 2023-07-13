@@ -10,7 +10,7 @@ i2c = I2C(1, sda=Pin(2), scl=Pin(3))  # Correct I2C pins for RP2040
 vcn = vcnl4010.VCNL4010(i2c)
 
 while True:
-    print("Proximity: {}".format(vcn.proximity))
-    print("Ambient light: {} lux".format(vcn.ambient))
+    print(f"Proximity: {vcn.proximity}")
+    print(f"Ambient light: {vcn.ambient} lux")
     print()
     time.sleep(1.0)

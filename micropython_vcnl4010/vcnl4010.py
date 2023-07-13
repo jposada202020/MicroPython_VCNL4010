@@ -5,7 +5,7 @@
 `vcnl4010`
 ================================================================================
 
-MicroPython Driver for the Vishay VCNL4010 Proximity and Ambient Light Sensor
+9
 
 
 * Author(s): Jose D. Montoya
